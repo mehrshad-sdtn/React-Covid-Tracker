@@ -1,0 +1,162 @@
+html, body { 
+    margin:0;
+    height: 100%;
+    background-color: #eaece5;
+}
+.covidData {
+    border: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-size: auto 100%;
+    background-color: #eaece5;
+    
+   
+   
+}
+
+.covidData__search__history {
+    width: 15%;
+    height: 100vh;
+    float: left;
+    padding: 20px;
+    margin-top: 0px;
+    z-index: 0;
+    background-color: #eaece5;
+    overflow:auto;
+    flex-flow: column;
+   
+    
+    
+    
+  }
+
+  .covidData__country__info {
+    width:79%;
+    float: right;
+    height: 60%;
+    padding: 20px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-left: 5px;
+    border-radius: 6px;
+    border: 1.5px solid rgba(15, 14, 14, 0.123);
+    z-index: 1;
+    background-color: #c0ded9;
+    flex-wrap: wrap;
+    position: relative;
+   
+    
+
+  }
+
+@media all and (max-width: 1100px){
+.covidData__search__history {
+    width: 13%;
+    height: 100vh;
+    float: left;
+    padding: 30px;
+    border-radius: 6px;
+    margin-top: 8px;
+    margin-left: 4px;
+    z-index: 1;
+    background-color: #eaece5;
+    flex-wrap: wrap;
+    
+    
+    
+  }
+
+  .covidData__country__info {
+    width:66%;
+    float: right;
+    height: 60%;
+    padding: 20px;
+    margin-top: 8px;
+    margin-right: 3px;
+    margin-left: 5px;
+    border-radius: 6px;
+    border: 1.5px solid rgba(0, 0, 0, 0.123);
+    z-index: 1;
+    background-color: #c0ded9;
+    flex-wrap: wrap;
+   
+    
+
+  }
+}
+
+
+
+  .leftside {
+      float: left;
+      margin-left: 50px;
+      margin-bottom: 80px;
+      
+  }
+
+  .rightside {
+    float: right;
+    margin-right: 62px;
+    margin-bottom: 80px;
+    
+  }
+
+  .parag{
+    margin-top: 100px;
+    margin-left: 70px;
+    font-weight: 400;
+  }
+
+  .death {
+    font-weight: 700;
+    color: red;
+  }
+
+
+  .recover {
+      font-weight: 700;
+      color: rgba(18, 150, 40, 0.877);
+  }
+
+  .country {
+      font-weight: 700;
+      font-size: larger;
+  }
+
+  .clearbtn {
+      background-color: #c0ded9;
+      border: 4px;
+      height: 35px;
+      width: 65px;
+      border-radius: 5px;
+      border: 0.5px solid;
+  }
+
+  .clearbtn:hover {
+      background-color: #b0aac0;
+  }
+
+  ol{
+    padding-left: 3.5px;
+  }
+
+  .error {
+    
+    width:80%;
+    float: right;
+    height: 60%;
+    padding: 20px;
+    margin-top: 8px;
+    margin-right: 3px;
+    margin-left: 5px;
+    border-radius: 6px;
+    border: 1.5px solid rgba(0, 0, 0, 0.123);
+    z-index: 1;
+    background-color: rgba(240, 84, 123, 0.336);
+    flex-wrap: wrap;
+    color: rgb(68, 0, 0);
+  }
+
+
+  

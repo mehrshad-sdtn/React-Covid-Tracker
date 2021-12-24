@@ -1,0 +1,109 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #3b3a30;
+    overflow: hidden;
+    height: 80px;
+    width: 100%;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    
+  
+    
+    
+  }
+  
+.topnav a {
+    float: left;
+    display: block;
+    color: #c0ded9;
+    text-align: center;
+    padding: 20px 16px;
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+  }
+ 
+  .topnav form {
+    
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+   
+   
+  }
+
+  .subbtn {
+      margin-left: 8px;
+      border-radius: 3px;
+      width: 40px;
+      color: rgb(7, 21, 80);
+      background-color: #b2c2bf;
+      border: 0.25px;
+  }
+  
+  .subbtn:hover{
+    background-color: #b0aac0;
+  }
+
+  .subinput {
+    border-radius: 3px;
+    height: 25px;;
+    border: 0.25px;
+  }
+
+  .radios {
+    float: right;
+    width: auto;
+    margin-left: 800px;
+    position: absolute;
+      
+  }
+
+  @media all and (max-width: 1350px){
+    .radios {
+        float: right;
+        width: auto;
+        margin-left: 300px;
+        position: absolute;
+          
+      }
+  }
+
+  @media all and (max-width: 800px){
+    .radios {
+        float: right;
+        width: auto;
+        margin-left: 200px;
+        position: absolute;
+          
+      }
+  }
+
+  @media all and (max-width: 400px){
+    .radios {
+        float: right;
+        width: auto;
+        margin-left: 20px;
+        position: absolute;
+        visibility: hidden;
+          
+      }
+   
+  }
+
+  
+
+  .radiobtn {
+      color: white;
+      font-weight: 200;
+      float: right;
+      margin-top: 0px;
+      margin-left: 20px;
+      position: relative;
+      
+  }
